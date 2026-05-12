@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: #0f1115;
+  color: #e8ecf2;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.container {
+  width: min(1000px, 94vw);
+  margin: 24px auto;
+  padding: 24px;
+  border: 1px solid #2b3240;
+  border-radius: 12px;
+  background: #171b22;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  margin: 10px 0 18px;
+  color: #a8b0bf;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+textarea {
+  width: 100%;
+  min-height: 140px;
+  resize: vertical;
+  border-radius: 8px;
+  border: 1px solid #394253;
+  background: #11141a;
+  color: #edf0f6;
+  padding: 12px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.9rem;
+}
+
+.status {
+  margin: 12px 0 16px;
+  color: #9ca6b8;
+}
+
+.status.success {
+  color: #57d68d;
+}
+
+.status.error {
+  color: #ff7676;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.row {
+  border: 1px solid #333d4d;
+  border-radius: 10px;
+  padding: 12px;
+  background: #121720;
+  display: grid;
+  gap: 6px;
+}
+
+.mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  word-break: break-all;
+}
