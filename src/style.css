@@ -51,6 +51,11 @@ textarea {
   font-size: 0.9rem;
 }
 
+.report-input {
+  min-height: 220px;
+  margin-top: 2px;
+}
+
 .status {
   margin: 12px 0 16px;
   color: #9ca6b8;
@@ -62,6 +67,43 @@ textarea {
 
 .status.error {
   color: #ff7676;
+}
+
+.report-check {
+  margin: -4px 0 18px;
+  border: 1px solid #2f3948;
+  border-radius: 8px;
+  background: #121820;
+  padding: 12px;
+  color: #aeb9cb;
+}
+
+.report-check p {
+  margin: 0 0 8px;
+}
+
+.report-check.success {
+  border-color: #246843;
+  color: #9fe9bc;
+}
+
+.report-check.error {
+  border-color: #7b3535;
+  color: #ffc6c6;
+}
+
+.check-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.match-hit {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 6px;
+  border: 1px solid #246843;
+  background: #102418;
+  color: #75f2a8;
 }
 
 .results {
