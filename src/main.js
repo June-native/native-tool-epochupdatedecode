@@ -349,3 +349,7 @@ slackReportInput.addEventListener('input', () => {
 calldataInput.addEventListener('focus', () => {
   calldataInput.select()
 })
+
+slackReportInput.addEventListener('focus', () => {
+  slackReportInput.select()
+})
